@@ -1,8 +1,5 @@
 ---
-layout: default
-title: "Happy Jekylling!"
+layout: index
+title:  P.I.V.
+h2:     Projecting in Ventotene
 ---
-
-## You're ready to go!
-
-Start developing your Jekyll website.
