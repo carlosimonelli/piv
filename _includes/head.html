@@ -1,0 +1,19 @@
+<head>
+    <title>{{ page.title }} | {% if page.class == 'index' %} {{ site.claim }} {% else  %} {{ site.title }}{% endif  %}
+</title>
+    <meta charset="utf-8" />
+    <meta name="viewport"     content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <link rel="canonical"            href="{{ site.url | absolute_url }}" />
+    <meta     name="thumbnail"       content="{{ site.og_img | absolute_url }}" />
+    <meta     name="keyword"         content="{{ site.keyword }}" />
+    <meta     name="description"     content="{{ site.og_desc }}" />
+    <meta property="og:title"        content="{{ page.title }}" />
+    <meta property="og:type"         content="website" />    
+    <meta property="og:description"  content="{{ site.og_desc }}" />
+    <meta property="og:image"        content="{{ site.og_img | absolute_url }}" />
+    <meta property="og:image:height" content="{{site.og_img_h}}" />
+    <link rel=icon href=/assets/img/favicon.ico type=image/x-icon>
+    <link href="/assets/fa/css/all.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="/assets/css/screen.css" >        
+    {%- include google-analytics.html -%}
+</head>
