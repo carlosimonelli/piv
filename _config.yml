@@ -1,3 +1,18 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+baseurl:     "" 
+url:         "https://pivway.org" 
+title:       "PIV - Piano Integrato Ventotene"
+claim:       "Projecting in Ventotene" 
+destination: docs/
+highlighter: none
+
+og_desc:    ""
+og_img:     "/assets/img/piv-og-img.png"
+og_img_h:   "260"
+keyword:    "Isole, Mediterraneo, Ventotene, ambiente, progetti integrati, sviluppo sostenibile, eco-sostenibilità, aree protette, emissioni zero, ecolavoro, ecoturismo, ecologia, fonti rinnovabili, Islands, Mediterranean Sea, Ventotene, environment, integrated projects, sustainable development, protected areas, zero CO2 emission, ecoturism, ecology, renewable sources, PIV"    
+exclude: [
+    'CHANGELOG'
+  , 'README.md'
+  , 'TODO'
+  , 'VERSION'
+]
+
