@@ -83,12 +83,10 @@ BODY MAIN P {
  */
 BODY.index {
     text-align: center;
-    padding: 1rem;
+    padding: 2rem 1rem;
 }
 
 BODY.index IMG.index {
-    border: solid 2px $colorBorder;
-    background-color: #f0f0f0;
     padding: 1rem;
     max-width: 90%;
     margin: 1rem 0;
