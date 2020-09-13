@@ -1,0 +1,86 @@
+
+/*
+
+
+@font-face {
+  font-family: Inconsolata;
+  src: url(/assets/fonts/Inconsolata-Regular.ttf);
+  unicode-range: U+0025-00FF; 
+}
+@font-face {
+  font-family: Inconsolata;
+  src: url(/assets/fonts/Inconsolata-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Simonetta;
+  src: url(/assets/fonts/Simonetta-Regular.ttf);
+}
+@font-face {
+  font-family: Simonetta;
+  src: url(/assets/fonts/Simonetta-Italic.ttf);
+  font-style: italic, oblique;
+}
+@font-face {
+  font-family: Simonetta;
+  src: url(/assets/fonts/Simonetta-Black.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Simonetta;
+  src: url(/assets/fonts/Simonetta-BlackItalic.ttf);
+  font-style: italic, oblique;
+  font-weight: bold;
+}
+
+
+*/
+
+* {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    padding:0;
+    margin:0
+}
+
+BODY {
+  background: $backgroundColor;
+  color: $bodyColor;
+  font-family: $bodyFont;
+}
+
+
+H1 {
+    color: $colorH1;
+}
+
+H2 {
+    color: $colorH2;
+}
+
+/**
+ *
+ *  INDEX PAGE
+ *
+ */
+BODY.index {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+BODY.index IMG.index {
+    border: solid 2px $colorBorder;
+    background-color: #f0f0f0;
+    padding: 1rem;
+}
+
+MENU A.language {
+    display: inline-block;
+    padding: 0 2rem;
+}
+MENU IMG.flag {
+    width: 80px;
+    height: 50px;
+} 
