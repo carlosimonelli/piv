@@ -50,6 +50,9 @@ BODY {
   font-family: $bodyFont;
 }
 
+H1, H2, H3, H4 {
+    margin-bottom: 0.5rem;
+}
 
 H1 {
     color: $colorH1;
@@ -75,13 +78,19 @@ BODY.index IMG.index {
     border: solid 2px $colorBorder;
     background-color: #f0f0f0;
     padding: 1rem;
+    max-width: 90%;
 }
 
-MENU A.language {
+BODY.index MENU {
+    margin-top: 1rem;
+}
+
+BODY.index MENU A.language {
     display: inline-block;
     padding: 0 2rem;
 }
-MENU IMG.flag {
+
+BODY.index MENU IMG.flag {
     width: 80px;
     height: 50px;
 } 
