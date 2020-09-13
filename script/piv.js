@@ -1,0 +1,1 @@
+parametri="toolbar=no,location=no,directories=no,status=no,scrollbars=yes,resizable=yes,copyhistory=no,titlebar=no";var myonb = new Object;function ApriFinestra( fname, url ){   myonb[fname]=window.open( url, fname, parametri+',Width=600,Height=400');   myonb[fname].focus();}
