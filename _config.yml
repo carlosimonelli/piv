@@ -1,7 +1,7 @@
 baseurl:     "" 
 url:         "https://pivway.org" 
-title:       "Piano Integrato Ventotene"
-claim:       "" 
+title:       "PIV - Piano Integrato Ventotene"
+claim:       "Projecting in Ventotene" 
 destination: docs/
 highlighter: none
 

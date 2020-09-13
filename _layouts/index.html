@@ -8,11 +8,14 @@
     </head>
     <body>
         <header>
-            {%- include menu.html -%}
+            <h1>{{ site.title }}</h1>
+            <h2>{{ site.claim }}</h2>
         </header>
-        {{ content}}
-        <footer>
-            {%- include footer.html -%}
-        </footer>
+        <img alt="PIV - Piano Integrato Ventotene" src="/assets/img/index.jpg">
+        <menu>
+            <a class="menu" href="/en/home.html" >English </a>
+            <a class="menu" href="/it/home.html" >Italiano</a>           
+        </menu>
   </body>
 </html>
+
