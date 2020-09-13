@@ -45,9 +45,13 @@
 }
 
 BODY {
-  background: $backgroundColor;
-  color: $bodyColor;
-  font-family: $bodyFont;
+    background: $backgroundColor;
+    color: $bodyColor;
+    font-family: $bodyFont;
+    font-size: 14pt;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;    
 }
 
 H1, H2, H3, H4 {
@@ -62,6 +66,16 @@ H2 {
     color: $colorH2;
 }
 
+UL, OL {
+    padding: 1rem 2rem;
+}
+
+BODY MAIN P {
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+
 /**
  *
  *  INDEX PAGE
@@ -69,8 +83,6 @@ H2 {
  */
 BODY.index {
     text-align: center;
-    max-width: 800px;
-    margin: auto;
     padding: 1rem;
 }
 
@@ -82,15 +94,15 @@ BODY.index IMG.index {
     margin: 1rem 0;
 }
 
-BODY.index MENU {
+BODY.index NAV {
 }
 
-BODY.index MENU A.language {
+BODY.index NAV A.language {
     display: inline-block;
     padding: 0 2rem;
 }
 
-BODY.index MENU IMG.flag {
+BODY.index NAV IMG.flag {
     width: 80px;
     height: 50px;
 } 
