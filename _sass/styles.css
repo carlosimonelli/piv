@@ -45,9 +45,13 @@
 }
 
 BODY {
-  background: $backgroundColor;
-  color: $bodyColor;
-  font-family: $bodyFont;
+    background: $backgroundColor;
+    color: $bodyColor;
+    font-family: $bodyFont;
+    font-size: 14pt;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;    
 }
 
 H1, H2, H3, H4 {
@@ -62,6 +66,84 @@ H2 {
     color: $colorH2;
 }
 
+UL, OL {
+    padding: 1rem 2rem;
+}
+
+A {
+    color: $colorA;
+}
+
+/**
+ *
+ *  ELEMENTI DEL CORPO PAGINA
+ *
+ */
+ 
+BODY MAIN H1 {
+    font-size: 1.7rem;
+    margin: 3rem 0;
+}
+
+BODY MAIN P {
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+/**
+ *
+ *  HEADER
+ *
+ */
+
+HEADER {
+    position: relative;
+    height: 90px;
+    margin-bottom: 1rem;
+    display: block;
+    border-bottom: solid 1px #999;
+}
+
+HEADER IMG.logo {
+    float: left;
+}
+
+/** Menu principale */
+
+HEADER NAV.menu-top {
+    position: absolute;
+    right: 0;
+    bottom: 0.5rem;
+}
+
+HEADER NAV.menu-top A {
+    text-decoration: none;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 0.95rem;
+    padding-left: 1rem;
+    color: #f36415
+}
+
+HEADER DIV.titoli {
+    font-weight: bold;            
+    display: inline-block;
+    float: right;
+    text-align: right;
+    
+}
+
+HEADER DIV.titoli P.site-title {
+    font-size: 1.5rem;
+    color: $colorH1;
+    font-variant: small-caps;
+}
+HEADER DIV.titoli P.site-claim {
+    font-size: 1rem;
+    color: $colorH2;
+    font-variant: small-caps;
+}
+
 /**
  *
  *  INDEX PAGE
@@ -69,28 +151,24 @@ H2 {
  */
 BODY.index {
     text-align: center;
-    max-width: 800px;
-    margin: auto;
-    padding: 1rem;
+    padding: 2rem 1rem;
 }
 
 BODY.index IMG.index {
-    border: solid 2px $colorBorder;
-    background-color: #f0f0f0;
     padding: 1rem;
     max-width: 90%;
     margin: 1rem 0;
 }
 
-BODY.index MENU {
+BODY.index NAV {
 }
 
-BODY.index MENU A.language {
+BODY.index NAV A.language {
     display: inline-block;
     padding: 0 2rem;
 }
 
-BODY.index MENU IMG.flag {
+BODY.index NAV IMG.flag {
     width: 80px;
     height: 50px;
 } 
