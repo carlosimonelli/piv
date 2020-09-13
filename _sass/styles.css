@@ -79,10 +79,10 @@ BODY.index IMG.index {
     background-color: #f0f0f0;
     padding: 1rem;
     max-width: 90%;
+    margin: 1rem 0;
 }
 
 BODY.index MENU {
-    margin-top: 1rem;
 }
 
 BODY.index MENU A.language {

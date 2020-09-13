@@ -47,9 +47,7 @@ H2 { color: #000099; }
 /** INDEX PAGE */
 BODY.index { text-align: center; max-width: 800px; margin: auto; padding: 1rem; }
 
-BODY.index IMG.index { border: solid 2px #999999; background-color: #f0f0f0; padding: 1rem; max-width: 90%; }
-
-BODY.index MENU { margin-top: 1rem; }
+BODY.index IMG.index { border: solid 2px #999999; background-color: #f0f0f0; padding: 1rem; max-width: 90%; margin: 1rem 0; }
 
 BODY.index MENU A.language { display: inline-block; padding: 0 2rem; }
 
