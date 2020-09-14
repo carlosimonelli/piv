@@ -1,42 +1,6 @@
-/*
-
-
-@font-face {
-  font-family: Inconsolata;
-  src: url(/assets/fonts/Inconsolata-Regular.ttf);
-  unicode-range: U+0025-00FF; 
-}
-@font-face {
-  font-family: Inconsolata;
-  src: url(/assets/fonts/Inconsolata-Bold.ttf);
-  font-weight: bold;
-}
-@font-face {
-  font-family: Simonetta;
-  src: url(/assets/fonts/Simonetta-Regular.ttf);
-}
-@font-face {
-  font-family: Simonetta;
-  src: url(/assets/fonts/Simonetta-Italic.ttf);
-  font-style: italic, oblique;
-}
-@font-face {
-  font-family: Simonetta;
-  src: url(/assets/fonts/Simonetta-Black.ttf);
-  font-weight: bold;
-}
-@font-face {
-  font-family: Simonetta;
-  src: url(/assets/fonts/Simonetta-BlackItalic.ttf);
-  font-style: italic, oblique;
-  font-weight: bold;
-}
-
-
-*/
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 0; margin: 0; }
 
-BODY { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size: 14pt; max-width: 800px; width: 100%; margin: auto; }
+BODY { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size: 14pt; max-width: 800px; width: 100%; margin: auto; padding: 0 2rem; }
 
 H1, H2, H3, H4 { margin-bottom: 0.5rem; }
 
@@ -71,6 +35,8 @@ HEADER DIV.titoli P.site-claim { font-size: 1rem; color: #64c7e8; font-variant: 
 
 /** INDEX PAGE */
 BODY.index { text-align: center; padding: 2rem 1rem; }
+
+BODY.index HEADER { border-bottom: none; }
 
 BODY.index IMG.index { padding: 1rem; max-width: 90%; margin: 1rem 0; }
 
