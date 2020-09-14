@@ -8,10 +8,12 @@
             <h1>{{ site.title }}</h1>
             <h2>{{ site.claim }}</h2>
         </header>
-        <img class="index" alt="PIV - Piano Integrato Ventotene" src="/assets/img/logo-index.png">
+        <img class="index" alt="PIV - Piano Integrato Ventotene" src="{{ /assets/img/logo-index.png | prepend:site.baseurl }}">
         <nav>
-            <a class="menu language" href="/en/home.html" ><img class="flag" src="/assets/img/flag-english.png" alt="English"  ></a>
-            <a class="menu langiage" href="/it/home.html" ><img class="flag" src="/assets/img/flag-italian.png" alt="Italiano" ></a>           
+            <a class="menu language" href="{{ /en/home.html | prepend:site.baseurl }}" >
+                <img class="flag" src="{{ /assets/img/flag-english.png | prepend:site.baseurl }}" alt="English"  ></a>
+            <a class="menu langiage" href="{{ /it/home.html | prepend:site.baseurl }}" >
+                <img class="flag" src="{{ /assets/img/flag-italian.png | prepend:site.baseurl }}" alt="Italiano" ></a>           
         </nav>
   </body>
 </html>
